@@ -8,11 +8,11 @@ import { toast } from "react-toastify";
 import { deletefood} from "../StoreRedux/foodSlice";
 import {deleteorder} from "../StoreRedux/orderSlice";
 
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 
 const DeleteModal = (props) => {
-  const host=useNavigate()
+  
   const dispatch = useDispatch();
   const { setloading, delId, setshowModal } = props;
   const handleDeleteClick = async () => {

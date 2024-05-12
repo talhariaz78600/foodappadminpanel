@@ -8,7 +8,7 @@ import { RoutingCallAdmin } from "./components/Admin/RoutingCallAdmin";
 
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import 'flowbite';
+// import 'flowbite';
 import CryptoJS from 'crypto-js';
 import { secretEnKey } from "./config";
 import { useDispatch, useSelector } from "react-redux";

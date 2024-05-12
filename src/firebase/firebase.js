@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { getAnalytics } from "firebase/analytics";
 import { getStorage, ref,uploadBytes,getDownloadURL} from "firebase/storage";
 const firebaseConfig = {
   apiKey: "AIzaSyAu5RADi2XDiPKR2OR9wX5ogRaKR_OOHTA",
@@ -13,7 +13,7 @@ const firebaseConfig = {
 };
 const app = initializeApp(firebaseConfig);
 const storage = getStorage(app);
-const analytics = getAnalytics(app);
+// const analytics = getAnalytics(app);
 const storeimage=(file)=>{
 
      const storageRef = ref(storage, 'images/food/' + file.name);
